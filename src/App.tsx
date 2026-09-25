@@ -3,7 +3,7 @@ import { useState } from "react"
 function App() {
   const [count,setCount] = useState<number>(0)
   const handleClick = () =>{
-    setCount(count + 1)
+    setCount(count + 10)
   }
   return (
     <div>
